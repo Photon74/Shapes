@@ -8,8 +8,4 @@
     <Compile Remove="Ellipse.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tests\" />
-  </ItemGroup>
-
 </Project>
