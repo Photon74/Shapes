@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using Shapes.Models;
 
-namespace Shapes.Tests
+namespace Tests
 {
-    [TestFixture]
-    internal class Tests
+    public class Tests
     {
         [TestCase(3, 4, 5, 6, true)]
         [TestCase(3, 4, 6, 5.33, false)]
